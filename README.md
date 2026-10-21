@@ -1,16 +1,13 @@
-# React + Vite
+# Bài tập Buổi 9: Quản lý sinh viên (React Hooks)
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Bài tập nâng cấp ứng dụng Quản lý sinh viên từ Class Component sang Function Component kết hợp React Hooks.
 
-Currently, two official plugins are available:
+## Tính năng chính
+- Quản lý danh sách sinh viên: Thêm, Xóa, Validate form input.
+- Tương tác REST API với MockAPI (Custom hook `useFetch`).
+- Chuyển đổi giao diện Sáng / Tối (ThemeContext).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Công nghệ sử dụng
+- React 18 / Vite
+- React Hooks (`useState`, `useEffect`, `useContext`)
+- MockAPI
